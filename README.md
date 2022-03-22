@@ -16,5 +16,8 @@ source activate ./env
 '''bash
 pip install -r requirements.txt
 ...
-
+## STEP 05- Create conda.yaml file
+'''bash
+conda env export > conda.yaml
+...
 ## STEP 06- commit and push the changes to the remote repository
